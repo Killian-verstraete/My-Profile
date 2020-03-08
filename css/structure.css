@@ -1,0 +1,399 @@
+/*Feuilles de style*/
+/*Portfolio*/
+/* structure site*/
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.photoprofil{
+    width: 160px;
+    height: 180px;
+}
+
+.Intro{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #f5f5f5;
+    /* border: 1px solid red; */
+}
+
+.Contenu{
+    margin: 50px;
+    
+}
+#Tetedepage{
+    background-image: url(../img/D1B77A0F-501C-4221-A3A5-00381CA027F1\ 2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.Paraf{
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.titre{
+    font-size: 1.9rem;
+    text-align: left;
+
+}
+
+.SousTitre{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    color: black;
+    
+    /* border: 1px solid red; */
+}
+.Sous-Soustitre{
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+    margin: 1px;
+    /* border: 1px solid red; */
+}
+
+            /*///////////////////////// Introduction / home ////////////////////////////////*/
+
+            
+.Introduction{
+    width: 90%;
+    height: 100%;
+    top: 10%;
+    left: 0px;
+    padding: 0;
+    
+    
+}
+
+.Titre{
+    width: 50%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    /* border: 1px solid red; */
+    
+
+}
+.Intro-Titre{
+    font-size: 3.6em;
+    font-weight: 600;
+    font-weight: bolder; 
+}
+
+.Intro-SousTitre{
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-weight: bolder;
+}
+
+.Encadrement{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 38%;
+}
+
+                /*//////////////////// A propos / Contenu //////////////////////*/
+
+.Information{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 1px 1px 10px #4e4e4e;
+    border-radius: 3%;
+
+}
+.Coordonnees-competence{
+    width: 35%;
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+.Coordonees{
+    height: 450px;
+    margin-top: 45px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.Qualities{
+    height: 450px;
+    margin-top: 45px;
+}
+.Interest{
+    height: 450px;
+    margin-top: 45px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 30px;
+
+}
+
+
+.Aproposdemoi{
+    width: 50%;
+    margin-left: 50px;
+    padding: 5px;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+.Competences{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.Competence{
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.progress{
+    height: 20px;
+    overflow: hidden;
+    background-color: #4e4e4e; 
+    /* border: 1px solid red; */
+
+}
+.progress-bar {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    background-color: rgb(23, 23, 24);
+    /* border: 1px solid red; */
+}
+.Progression1{
+    width: 40%;
+    margin: 50px;
+    /* border: 1px solid red; */
+}
+.Progression2{
+    width: 40%;
+    margin: 50px;
+    /* border: 1px solid red; */
+}
+
+.progress01{
+    width: 100%;
+    
+}
+
+.progress02{
+    width: 70%;
+}
+.progress03{
+    width: 70%;
+}
+.progress04{
+    width: 60%;
+}
+.progress05{
+    width: 60%;
+}
+.progress06{
+    width: 30%;
+}
+.progress07{
+    width: 15%;
+}
+
+.progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -moz-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-bar-striped {
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 20px 20px;
+}
+@keyframes progress-bar-stripes {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 40px 0;
+    }
+}
+
+/********************************fin test*******************/
+
+                    /*////////////////// Services //////////////////*/  
+
+
+
+.FormationContenu{
+    width: 100%;  
+    
+}
+
+.Formations{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 18%;
+    padding: 10px;
+    
+    
+
+}
+.Formation{
+    width: 20%;
+    margin: 40px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #4e4e4e;
+    background-color:white;
+    /* border: 1px solid red;  */
+}
+
+.TitreFormation{
+    text-align: center;
+}
+
+.ImageFormation{
+  width: 55%;
+  display: flex;
+  margin-left: 65px;
+  transition: all ease-in-out .3s;
+}
+.ImageFormation:hover{
+    transform: scale(1.1);
+    
+}
+
+.ImageBritish{
+    width: 85%;
+    display: flex;
+    margin-left: 20px;
+    transition: all ease-in-out .3s;
+}
+
+.ImageBritish:hover{
+    transform: scale(1.1);  
+}
+.ImageCoursera{
+    width: 80%;
+    display: flex;
+    margin-left: 20px;
+    transition: all ease-in-out .3s;
+}
+.ImageCoursera:hover{
+    transform: scale(1.1);
+}
+.textpsc{
+    margin: 50px;
+}
+
+
+.Parafserv{
+    margin-top: 15%;
+}
+
+                        /*///////////////Jobs OK ////////////////*/
+
+#JobsOK{
+    width: 100%;
+    padding-bottom: 200px;
+    background-image: url(../img/nebula.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    
+}
+
+                    /*///////////////////Réalisations////////////////////*/
+
+.Realisation{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.RealisationContenu{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.Inforealisation{
+    width: 25%;
+    height: 25%;
+    margin: 15px;
+    margin-left: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+}
+
+.ImageRealisation{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid #4e4e4e;
+    box-shadow: 1px 10px 10px #4e4e4e;
+
+}
+#Premierpage{
+    width: 276px;
+}
+
+#experiences{
+    box-shadow: 5px 5px 10px #4e4e4e;
+    /* border: 1px solid red; */
+}
+
+.Couleur{
+    width: 100%;
+    height: 75px;
+    background-color: #2E2E2E;
+    text-align: right;
+    /* border:1px solid red; */
+}
+
+
+#Icons{
+    width: 45px;
+    margin: 25px;
+    background-color: #2E2E2E;
+    /* border:1px solid red; */
+}
+
+
